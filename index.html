@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madu Nail Studio — Estúdio de Unhas</title>
+  <meta name="description" content="Madu Nail Studio — estúdio de unhas especializado em alongamento, nail art e cuidado das mãos. Agende seu horário.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💅</text></svg>">
+</head>
+<body>
+
+  <!-- ========== BARRA DE TOPO ========== -->
+  <div class="topbar">
+    <span>✦ Agende pelo WhatsApp e ganhe 10% na primeira visita ✦</span>
+  </div>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">
+        <span class="logo__mark">M</span>
+        <span class="logo__text">Madu<small>nail studio</small></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+        <a href="#agendar" class="btn btn--sm nav__cta">Agendar</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero__blob hero__blob--1"></div>
+    <div class="hero__blob hero__blob--2"></div>
+
+    <div class="container hero__inner">
+      <div class="hero__content reveal">
+        <p class="eyebrow">Estúdio de unhas &middot; desde 2018</p>
+        <h1 class="hero__title">
+          Suas mãos merecem<br>
+          <em>um cuidado de verdade</em>
+        </h1>
+        <p class="hero__text">
+          Alongamento, nail art autoral e spa das mãos em um ambiente
+          acolhedor, com esterilização rigorosa e produtos premium.
+        </p>
+        <div class="hero__actions">
+          <a href="#agendar" class="btn">Agendar horário</a>
+          <a href="#servicos" class="btn btn--ghost">Ver serviços</a>
+        </div>
+
+        <ul class="hero__stats">
+          <li><strong data-count="1200">0</strong><span>clientes felizes</span></li>
+          <li><strong data-count="7">0</strong><span>anos de estúdio</span></li>
+          <li><strong data-count="30">0</strong><span>estilos de nail art</span></li>
+        </ul>
+      </div>
+
+      <div class="hero__visual reveal">
+        <div class="hero__card">
+          <div class="nail-art">
+            <div class="nail nail--1"></div>
+            <div class="nail nail--2"></div>
+            <div class="nail nail--3"></div>
+            <div class="nail nail--4"></div>
+            <div class="nail nail--5"></div>
+          </div>
+          <p class="hero__card-caption">Coleção <em>Rosé Nude</em></p>
+        </div>
+        <div class="hero__badge">
+          <span>✦</span>
+          <p>Esmaltes<br>veganos</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MARQUEE ========== -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>Nail Art&nbsp; ✦ &nbsp;Alongamento em Gel&nbsp; ✦ &nbsp;Spa das Mãos&nbsp; ✦ &nbsp;Esmaltação em Gel&nbsp; ✦ &nbsp;Blindagem&nbsp; ✦ &nbsp;Francesinha&nbsp; ✦ &nbsp;</span>
+      <span>Nail Art&nbsp; ✦ &nbsp;Alongamento em Gel&nbsp; ✦ &nbsp;Spa das Mãos&nbsp; ✦ &nbsp;Esmaltação em Gel&nbsp; ✦ &nbsp;Blindagem&nbsp; ✦ &nbsp;Francesinha&nbsp; ✦ &nbsp;</span>
+    </div>
+  </div>
+
+  <!-- ========== SOBRE ========== -->
+  <section class="section sobre" id="sobre">
+    <div class="container sobre__grid">
+      <div class="sobre__image reveal">
+        <div class="frame">
+          <div class="frame__inner">
+            <svg viewBox="0 0 400 480" class="illus" aria-hidden="true">
+              <defs>
+                <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#f6d9dd"/>
+                  <stop offset="100%" stop-color="#e8b4bc"/>
+                </linearGradient>
+                <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#fff"/>
+                  <stop offset="100%" stop-color="#f3dfe2"/>
+                </linearGradient>
+              </defs>
+              <rect width="400" height="480" fill="url(#g1)" rx="8"/>
+              <circle cx="200" cy="150" r="90" fill="#fff" opacity=".35"/>
+              <!-- mão estilizada -->
+              <path d="M150 430 C130 380 128 330 140 290 L150 200 a14 14 0 0 1 28 0 l6 80 4-110 a14 14 0 0 1 28 0 l2 110 8-96 a14 14 0 0 1 28 2 l-4 96 14-66 a13 13 0 0 1 26 4 l-14 108 c-8 60-24 84-44 102z"
+                    fill="url(#g2)" stroke="#c98a95" stroke-width="2.5" stroke-linejoin="round"/>
+              <ellipse cx="164" cy="196" rx="12" ry="15" fill="#c9707f"/>
+              <ellipse cx="198" cy="172" rx="12" ry="15" fill="#c9707f"/>
+              <ellipse cx="232" cy="180" rx="12" ry="15" fill="#c9707f"/>
+              <ellipse cx="266" cy="204" rx="11" ry="14" fill="#c9707f"/>
+              <g fill="#d9a441">
+                <circle cx="90" cy="380" r="4"/><circle cx="320" cy="120" r="5"/>
+                <circle cx="340" cy="400" r="3"/><circle cx="70" cy="110" r="3"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="sobre__content reveal">
+        <p class="eyebrow">Sobre o estúdio</p>
+        <h2 class="section__title">Um refúgio cor-de-rosa <em>no meio da correria</em></h2>
+        <p>
+          O Madu nasceu do desejo de transformar um cuidado simples em um ritual.
+          Aqui, cada atendimento é individual, com hora marcada e sem fila —
+          para você respirar, tomar um café e sair com as unhas impecáveis.
+        </p>
+        <p>
+          Trabalhamos com autoclave, materiais descartáveis e esmaltes veganos
+          livres de crueldade. Porque beleza de verdade combina com responsabilidade.
+        </p>
+
+        <ul class="checklist">
+          <li>Esterilização hospitalar em autoclave</li>
+          <li>Atendimento individual e com hora marcada</li>
+          <li>Produtos veganos e cruelty-free</li>
+          <li>Nail art autoral e personalizada</li>
+        </ul>
+
+        <div class="signature">
+          <span>Maduzinha</span>
+          <small>Fundadora &amp; Nail Designer</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVIÇOS ========== -->
+  <section class="section section--rose" id="servicos">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">O que fazemos</p>
+        <h2 class="section__title">Serviços &amp; <em>valores</em></h2>
+        <p class="section__sub">Todos os procedimentos incluem higienização, cutilagem e hidratação.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <span class="card__icon">💅</span>
+          <h3>Esmaltação em Gel</h3>
+          <p>Brilho intenso e durabilidade de até 21 dias, sem lascar.</p>
+          <div class="card__foot"><span class="price">R$ 70</span><span class="time">1h</span></div>
+        </article>
+
+        <article class="card card--featured reveal">
+          <span class="card__tag">Mais pedido</span>
+          <span class="card__icon">✨</span>
+          <h3>Alongamento em Gel</h3>
+          <p>Fibra ou molde F1 com acabamento natural e formato sob medida.</p>
+          <div class="card__foot"><span class="price">R$ 180</span><span class="time">2h30</span></div>
+        </article>
+
+        <article class="card reveal">
+          <span class="card__icon">🎨</span>
+          <h3>Nail Art Autoral</h3>
+          <p>Desenhos à mão livre, cromados, encapsulados e pedrarias.</p>
+          <div class="card__foot"><span class="price">R$ 15 <small>/unha</small></span><span class="time">+30min</span></div>
+        </article>
+
+        <article class="card reveal">
+          <span class="card__icon">🤍</span>
+          <h3>Blindagem</h3>
+          <p>Proteção para unhas naturais fracas, com crescimento saudável.</p>
+          <div class="card__foot"><span class="price">R$ 90</span><span class="time">1h15</span></div>
+        </article>
+
+        <article class="card reveal">
+          <span class="card__icon">🌸</span>
+          <h3>Spa das Mãos</h3>
+          <p>Esfoliação, máscara nutritiva, luva térmica e massagem relaxante.</p>
+          <div class="card__foot"><span class="price">R$ 85</span><span class="time">50min</span></div>
+        </article>
+
+        <article class="card reveal">
+          <span class="card__icon">🦶</span>
+          <h3>Pedicure Completa</h3>
+          <p>Cuidado dos pés com esfoliação, esmaltação e hidratação profunda.</p>
+          <div class="card__foot"><span class="price">R$ 65</span><span class="time">1h</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERIA ========== -->
+  <section class="section galeria" id="galeria">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Portfólio</p>
+        <h2 class="section__title">Nossos <em>trabalhos</em></h2>
+        <p class="section__sub">Clique em uma peça para ampliar.</p>
+      </div>
+
+      <div class="filters reveal" id="filters">
+        <button class="filter is-active" data-filter="todos">Todos</button>
+        <button class="filter" data-filter="nude">Nude</button>
+        <button class="filter" data-filter="art">Nail Art</button>
+        <button class="filter" data-filter="francesinha">Francesinha</button>
+        <button class="filter" data-filter="glitter">Glitter</button>
+      </div>
+
+      <div class="gallery" id="gallery"><!-- preenchido via JS --></div>
+    </div>
+  </section>
+
+  <!-- ========== DEPOIMENTOS ========== -->
+  <section class="section section--rose" id="depoimentos">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Elas amaram</p>
+        <h2 class="section__title">O que dizem <em>as clientes</em></h2>
+      </div>
+
+      <div class="slider reveal" id="slider">
+        <div class="slider__viewport">
+          <div class="slider__track" id="sliderTrack">
+            <figure class="quote">
+              <div class="stars">★★★★★</div>
+              <blockquote>“Nunca minhas unhas duraram tanto. O ambiente é um chamego, saí de lá renovada e com a mão mais bonita que já tive.”</blockquote>
+              <figcaption><span class="avatar">C</span><div><strong>Camila Ribeiro</strong><small>Cliente há 3 anos</small></div></figcaption>
+            </figure>
+            <figure class="quote">
+              <div class="stars">★★★★★</div>
+              <blockquote>“A Madu entendeu exatamente o que eu queria só pela referência. O alongamento ficou leve, natural e resistente demais.”</blockquote>
+              <figcaption><span class="avatar">J</span><div><strong>Juliana Alves</strong><small>Cliente há 1 ano</small></div></figcaption>
+            </figure>
+            <figure class="quote">
+              <div class="stars">★★★★★</div>
+              <blockquote>“Higiene impecável e um carinho no atendimento que faz toda a diferença. Virou meu momento de autocuidado do mês.”</blockquote>
+              <figcaption><span class="avatar">P</span><div><strong>Patrícia Moura</strong><small>Cliente há 5 anos</small></div></figcaption>
+            </figure>
+            <figure class="quote">
+              <div class="stars">★★★★★</div>
+              <blockquote>“Fui para um casamento e todo mundo perguntou onde eu tinha feito. A nail art autoral é outro nível.”</blockquote>
+              <figcaption><span class="avatar">L</span><div><strong>Letícia Farias</strong><small>Cliente há 2 anos</small></div></figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="slider__controls">
+          <button class="slider__btn" id="prev" aria-label="Depoimento anterior">‹</button>
+          <div class="slider__dots" id="dots"></div>
+          <button class="slider__btn" id="next" aria-label="Próximo depoimento">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== AGENDAMENTO ========== -->
+  <section class="section agendar" id="agendar">
+    <div class="container agendar__grid">
+      <div class="agendar__info reveal">
+        <p class="eyebrow">Agendamento</p>
+        <h2 class="section__title">Vamos marcar <em>o seu horário?</em></h2>
+        <p>Preencha os dados e enviamos a confirmação pelo WhatsApp em poucos minutos.</p>
+
+        <ul class="info-list" id="contato">
+          <li><span>📍</span><div><strong>Endereço</strong>Rua das Acácias, 128 — Sala 4<br>Jardim Primavera, São Paulo — SP</div></li>
+          <li><span>🕑</span><div><strong>Horários</strong>Ter a Sex: 9h às 19h<br>Sábado: 9h às 16h</div></li>
+          <li><span>💬</span><div><strong>WhatsApp</strong><a href="https://wa.me/5511999999999">(11) 99999-9999</a></div></li>
+          <li><span>📷</span><div><strong>Instagram</strong><a href="#">@madunailstudio</a></div></li>
+        </ul>
+      </div>
+
+      <form class="form reveal" id="form" novalidate>
+        <div class="field">
+          <label for="nome">Nome completo</label>
+          <input type="text" id="nome" name="nome" placeholder="Como podemos te chamar?">
+          <small class="error"></small>
+        </div>
+
+        <div class="field">
+          <label for="telefone">WhatsApp</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="(11) 90000-0000" maxlength="15">
+          <small class="error"></small>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="servico">Serviço</label>
+            <select id="servico" name="servico">
+              <option value="">Selecione…</option>
+              <option>Esmaltação em Gel</option>
+              <option>Alongamento em Gel</option>
+              <option>Nail Art Autoral</option>
+              <option>Blindagem</option>
+              <option>Spa das Mãos</option>
+              <option>Pedicure Completa</option>
+            </select>
+            <small class="error"></small>
+          </div>
+
+          <div class="field">
+            <label for="data">Data desejada</label>
+            <input type="date" id="data" name="data">
+            <small class="error"></small>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="mensagem">Observações <em>(opcional)</em></label>
+          <textarea id="mensagem" name="mensagem" rows="3" placeholder="Tem alguma referência ou preferência de cor?"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--full">Enviar pedido de agendamento</button>
+        <p class="form__note">Ao enviar você concorda em receber o contato de confirmação.</p>
+        <div class="form__success" id="formSuccess" hidden>
+          <strong>Pedido enviado! ✦</strong>
+          <span>Em breve entramos em contato pelo WhatsApp.</span>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ========== CTA FINAL ========== -->
+  <section class="cta">
+    <div class="container cta__inner reveal">
+      <h2>Prontas para as unhas <em>dos seus sonhos?</em></h2>
+      <a href="https://wa.me/5511999999999" class="btn btn--light">Chamar no WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#hero" class="logo logo--light">
+          <span class="logo__mark">M</span>
+          <span class="logo__text">Madu<small>nail studio</small></span>
+        </a>
+        <p class="footer__about">Estúdio de unhas com hora marcada, esterilização rigorosa e muito carinho no atendimento.</p>
+      </div>
+
+      <div>
+        <h4>Navegação</h4>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#agendar">Agendar</a>
+      </div>
+
+      <div>
+        <h4>Serviços</h4>
+        <a href="#servicos">Alongamento</a>
+        <a href="#servicos">Esmaltação em gel</a>
+        <a href="#servicos">Nail art</a>
+        <a href="#servicos">Spa das mãos</a>
+      </div>
+
+      <div>
+        <h4>Contato</h4>
+        <a href="https://wa.me/5511999999999">(11) 99999-9999</a>
+        <a href="#">@madunailstudio</a>
+        <a href="#">contato@madu.com.br</a>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span id="ano"></span> Madu Nail Studio. Todos os direitos reservados.</p>
+      <p>Feito com <span class="heart">♥</span> para mãos bonitas.</p>
+    </div>
+  </footer>
+
+  <!-- ========== LIGHTBOX ========== -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox__close" id="lbClose" aria-label="Fechar">×</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Anterior">‹</button>
+    <figure class="lightbox__content">
+      <div class="lightbox__art" id="lbArt"></div>
+      <figcaption id="lbCaption"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Próxima">›</button>
+  </div>
+
+  <!-- ========== WHATSAPP FLUTUANTE ========== -->
+  <a href="https://wa.me/5511999999999" class="whats" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 32 32" width="26" height="26" fill="currentColor" aria-hidden="true">
+      <path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.1 1.6 5.9L4 29l8.3-1.6c1.7.9 3.6 1.4 5.7 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-4.9 1 1-4.8-.3-.4c-1-1.6-1.5-3.4-1.5-5.3 0-5.5 4.5-10 10-10s10 4.5 10 10-4.4 10.1-8.9 11.1zm5.5-7.4c-.3-.2-1.8-.9-2-1s-.5-.1-.7.2-.8 1-1 1.2-.4.2-.7 0c-1.7-.8-2.8-1.5-3.9-3.4-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.6s-.7-1.7-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-1.2 1.2-1.2 2.9-.1 4.6 1.1 1.7 2.4 3.6 5.4 4.9 2.3 1 3 .9 3.9.8.6-.1 1.8-.7 2-1.4s.3-1.3.2-1.4c-.1-.1-.3-.2-.7-.4z"/>
+    </svg>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
